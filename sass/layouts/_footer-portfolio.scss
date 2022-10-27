@@ -1,0 +1,132 @@
+.footer-portfolio {
+    background-color: var(--background-color-footer);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contacts-container-portfolio {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.adress-item-portfolio {
+    margin-bottom: 9px;
+}
+
+.adress-item-portfolio:last-child {
+    margin-bottom: 0;
+}
+
+.adress-link-portfolio {
+    font-style: normal;
+    line-height: var(--typical-line-height);
+    color: var(--adress-link-color);
+}
+
+.adress-contact-link-portfolio {
+    font-style: normal;
+    font-weight: 400;
+    line-height: var(--typical-line-height);
+    color: rgba(255, 255, 255, 0.6);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+        &:focus {
+            color: var(--hover-color);
+        }
+}
+
+
+.join-portfolio-text {
+    font-weight: 700;
+    display: inline-block;
+    line-height: 1.14px;
+    text-transform: uppercase;
+    justify-content: center;
+    color: var(--adress-link-color);
+    margin-bottom: 20px;
+}
+
+.join-portfolio-list {
+    display: flex;
+    gap: 10px;
+}
+
+.join-portfolio-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+        &:focus {
+            background-color: var(--hover-color);
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        }
+}
+
+.join-portfolio-icon {
+    fill: var(--adress-link-color);
+    &:hover,
+        &:focus {
+            color: var(--adress-link-color);
+        }
+}
+
+
+.subscription-text-portfolio {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: var(--adress-link-color);
+}
+
+.subscription-input-portfolio {
+    min-width: 358px;
+    height: 50px;
+    margin-right: 12px;
+    padding: 16px 15px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline-color: transparent;
+    color: var(--adress-link-color);
+    background-color: var(--background-color-footer);
+    &::placeholder {
+    font-size: 16px;
+    line-height: 1.25px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+}
+
+
+.btn-subscription-portfolio {
+    display: inline-flex;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.06em;
+    color: var(--adress-link-color);
+    margin: 0 auto;
+    min-width: 200px;
+    height: 50px;
+    background: var(--background-color-btn);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.subscription-icon-portfolio {
+    margin-left: 10px; 
+}

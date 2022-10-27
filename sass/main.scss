@@ -1,0 +1,28 @@
+@import "./base/reset";
+@import "./utils/variables";
+@import "./components/section";
+
+@import "./components/container";
+@import "./base/common";
+@import "./components/body";
+
+@import "./utils/visually-hidden";
+@import "./utils/visually-hidden-top";
+@import "./components/body";
+
+
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/work";
+@import "./layouts/practical";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/footer";
+
+@import "./components/modal";
+
+
+@import "./layouts/header-portfolio";
+@import "./layouts/philter";
+@import "./layouts/cards";
+@import "./layouts/footer-portfolio";

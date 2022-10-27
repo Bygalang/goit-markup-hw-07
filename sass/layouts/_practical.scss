@@ -1,0 +1,35 @@
+.practical-list {
+    display: flex;
+    gap: 30px;
+}
+
+.practical-item {
+    position: relative;
+}
+
+.practical-about {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    bottom: 0;
+    right: 0;
+    padding: 27px 107px;
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.about-text {
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--adress-link-color);
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    margin-bottom: 50px;
+}

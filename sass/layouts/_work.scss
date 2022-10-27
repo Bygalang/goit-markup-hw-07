@@ -1,0 +1,40 @@
+.work-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    border-radius: 50%;
+}
+
+.work-item {
+    width: 270px;
+}
+
+.svg-item {
+    display: flex;
+    height: 120px;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-col-btn);
+    margin-bottom: 30px;
+}
+
+.icon-work {
+    background: var(--background-col-btn);
+}
+
+
+.work-title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.work-text {
+    line-height: var(--typical-line-height);
+    color: var(--second-color);
+}
