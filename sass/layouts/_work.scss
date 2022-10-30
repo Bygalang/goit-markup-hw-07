@@ -1,11 +1,11 @@
-.work-list {
+.gallery__list {
     display: flex;
     justify-content: center;
     gap: 30px;
     border-radius: 50%;
 }
 
-.work-item {
+.gallery__item {
     width: 270px;
 }
 
@@ -19,12 +19,12 @@
     margin-bottom: 30px;
 }
 
-.icon-work {
+.svg-item__icon{
     background: var(--background-col-btn);
 }
 
 
-.work-title {
+.gallery__title {
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
@@ -34,7 +34,7 @@
     margin-bottom: 10px;
 }
 
-.work-text {
+.gallery__text {
     line-height: var(--typical-line-height);
     color: var(--second-color);
 }
